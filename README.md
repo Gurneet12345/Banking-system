@@ -71,7 +71,9 @@ For more detailed information, refer to the following files provided in the root
 
 ## Overview
 
-This project implements a simple client-server banking system using Java. The system allows clients to connect to a central server, perform banking operations such as creating accounts, depositing, withdrawing, and checking balances.
+This project implements a client-server banking system using Java. The system allows clients to connect to a central server to perform basic banking operations such as creating accounts, depositing, withdrawing, and checking balances.
+
+**Note**: There are known issues and errors in the code. Please refer to the sections below for details on how to identify and address these errors.
 
 ## Project Structure
 
@@ -84,6 +86,29 @@ This project implements a simple client-server banking system using Java. The sy
 - **Main2.java**: Another main entry point (Client-side).
 - **RandomNums.java**: Utility class for generating random numbers.
 - **ServerThread.java**: Manages concurrent client connections on the server side.
+
+## Known Issues
+
+1. **Compilation Errors**:
+   - There may be errors in the source files that prevent successful compilation. These could be due to missing libraries, syntax issues, or incorrect logic.
+
+2. **Runtime Errors**:
+   - Even if the code compiles, some functions may not work as expected during runtime. This could manifest as unexpected behavior, crashes, or incorrect outputs.
+
+3. **Logical Errors**:
+   - The code may contain logical errors that do not produce any immediate crashes but result in incorrect processing or data handling.
+
+## Steps to Troubleshoot
+
+1. **Check Compilation**:
+   - Compile the code in your IDE or using the command line to identify any immediate syntax or library-related issues.
+
+2. **Debugging**:
+   - Use debugging tools available in your IDE to step through the code and identify the sources of runtime errors.
+   - Add print statements or use a logging framework to trace the flow of the application and isolate problematic sections.
+
+3. **Review Logic**:
+   - Manually review the code logic, especially in critical sections like `Account.java`, `Database.java`, and `Client.java`, to ensure that operations are performed as expected.
 
 ## How to Run
 
@@ -100,21 +125,26 @@ This project implements a simple client-server banking system using Java. The sy
 4. **Operations**:
    - Once connected, you can create accounts, deposit, withdraw, and check balances using the client application.
 
+**Note**: Due to the known errors, some of these operations may not work as intended.
+
 ## Requirements
 
 - **Java 8 or higher**: Ensure you have a compatible version of Java installed.
 - **Eclipse IDE**: Recommended for project setup and management.
 
-## Project Files
-
-- **.classpath**: Eclipse classpath configuration.
-- **.project**: Eclipse project configuration.
-- **README.md**: This file.
-
 ## Future Improvements
 
+- Debug and fix the identified issues.
 - Implement more advanced banking operations.
 - Add a graphical user interface (GUI).
 - Implement secure communication between the client and server.
 
+## Additional Documentation
 
+Refer to the following files provided in the root directory for more information:
+
+- **Readme.md**: (This file) Provides an overview of the project.
+- **PatchNotes.md**: Contains the release notes and updates for the project.
+- **Projects.md**: Details the various projects and modules included in this repository.
+- **Part1.md to Part9.md**: Sequential documentation files that cover different parts of the project in detail.
+- **Interludes.md**: Additional documentation or notes that provide context or background information.
