@@ -62,10 +62,6 @@ To compile and run the project:
 For more detailed information, refer to the following files provided in the root directory:
 
 - **Readme.md**: (This file) Provides an overview of the project.
-- **PatchNotes.md**: Contains the release notes and updates for the project.
-- **Projects.md**: Details the various projects and modules included in this repository.
-- **Part1.md to Part9.md**: Sequential documentation files that cover different parts of the project in detail.
-- **Interludes.md**: Additional documentation or notes that provide context or background information.
 
 # Client-Server Banking System
 
@@ -144,7 +140,4 @@ This project implements a client-server banking system using Java. The system al
 Refer to the following files provided in the root directory for more information:
 
 - **Readme.md**: (This file) Provides an overview of the project.
-- **PatchNotes.md**: Contains the release notes and updates for the project.
-- **Projects.md**: Details the various projects and modules included in this repository.
-- **Part1.md to Part9.md**: Sequential documentation files that cover different parts of the project in detail.
-- **Interludes.md**: Additional documentation or notes that provide context or background information.
+
